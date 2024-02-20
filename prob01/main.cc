@@ -1,13 +1,12 @@
-// Please fill in below.
-// <Your name>
-// <Your section number> (e.g. CPSC 121L-01)
-// <Date>
-// <Your csu.fullerton.edu email>
-// <Your GitHub username>
+// Jemin Song
+// CPSC 121L-02
+// 2/19/2024
+// jeminsong0119@csu.fullerton.edu
+// @jeminsong
 //
 // Lab 4-1
 // If it is a pair programming lab please specify partner below.
-// Partner: @peteranteater
+// Partner: @ethanbui888
 
 #include <iostream>
 
@@ -37,11 +36,11 @@ int main() {
   std::cout << "What y? ";
   std::cin >> y;
 
-  // ========================== YOUR CODE HERE =============================
-  // Instantiate a `Bubble` object into a variable called `my_bubble`.
-  // Then, use the member functions to set color, size, and x, y coordinates
-  // based on the user provided input retrieved above.
-  // =======================================================================
+  Bubble my_bubble;
+  my_bubble.SetColor(color);
+  my_bubble.SetSize(size);
+  my_bubble.SetX(x);
+  my_bubble.SetY(y);
 
   // Don't delete this!
   // This prints out your bubble to the terminal and also

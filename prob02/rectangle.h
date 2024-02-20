@@ -25,5 +25,4 @@ class Rectangle {
   unsigned int length_;
   unsigned int width_;
 };
-
 Rectangle LargestRectangleByArea(const Rectangle &r1, const Rectangle &r2);
